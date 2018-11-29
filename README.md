@@ -6,11 +6,15 @@ A Node.js package that checks whether a given number is even.
 
 First, install the package using npm:
 
-    npm install is-even-number --save
+```console
+$ npm install is-even-number --save
+```
 
 Then, require the package and use it like so:
 
-    var isEvenNumber = require('is-even-number');
+```javascript
+var isEvenNumber = require('is-even-number');
+```
 
 ```javascript
 console.log(isEvenNumber("abc")); // false
