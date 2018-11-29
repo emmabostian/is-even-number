@@ -12,9 +12,11 @@ Then, require the package and use it like so:
 
     var isEvenNumber = require('is-even-number');
 
+```javascript
 console.log(isEvenNumber("abc")); // false
 console.log(isEvenNumber(4)); // true
 console.log(isEvenNumber(5)); // false
+```
 
 ## License
 
